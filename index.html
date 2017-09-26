@@ -10,28 +10,29 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+	<div class="header__bg">
 		<header>
-				<div class="header">
-						<div class="logo">
-							<h1 class="logo__text">Pingbull<span class="logo__text_purple">er</span></h1>
-						</div>
-						<div class="menu">
-							<ul>
-									<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
-							</ul>
-						</div>								
-				</div>			
+			<div class="header">
+				<div class="logo">
+					<h1 class="logo__text">Pingbull</h1>
+				</div>
+				<div class="menu menu_header">
+					<ul class="menu__list">
+						<li class="menu__item menu__item_header"><a href="#" class="menu__link">Home</a></li>
+						<li class="menu__item menu__item_header"><a href="#" class="menu__link">About</a></li>
+						<li class="menu__item menu__item_header"><a href="#" class="menu__link">Blog</a></li>
+						<li class="menu__item menu__item_header menu__item_prod"><a href="#" class="menu__link">Products</a></li>
+						<li class="menu__item menu__item_header menu__item_long"><a href="#" class="menu__link">Lorem ipsum</a></li>
+						<li class="menu__item menu__item_header menu__item_long"><a href="#" class="menu__link">Dolor sit amet</a></li>
+					</ul>
+				</div>										
+			</div>			
 		</header>
-		<div class="wrapper">
-			<div class="page">
+		<div class="slider_wrap">
+			<div class="slider__bg ">
 			<section>
 					<div class="slider">
-						<div class="slider__block">					
+						<div class="slider__block">			
 							<h1 class="slider__title">Lorem Ipsum Dolor</h1>						
 							<h2 class="slider__caption">It will make all of your dreams come true</h2>
 							<p class="slider__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span>at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
@@ -46,38 +47,48 @@
 					</div>
 				</div>
 			</section>
-			</div>
+		</div>
+		</div>
+
+		<section>
 			<div class="slider__circle">
 				<div class="slider__link"></div>
 				<div class="slider__link"></div>
 				<div class="slider__link"></div>
 				<div class="slider__link"></div>
-			</div>			
+				<div class="slider__link_block">
+					<div class="slider__link_small"></div>
+					<div class="slider__link_small"></div>
+					<div class="slider__link_small"></div>
+					<div class="slider__link_small"></div></div>
+			</div>
+		</section>
+			
 
-		</div>			
-		
 		<div class="about__bg">
 			<section>
-				<div class="about">
-					<div class="about__block">
-						<h1 class="about__title">About our company</h1>
+			<div class="container" style="width:100%;">
+				<div class="row about">
+				<div class="col about__block">
+					<h1 class="about__title">About our company</h1>
 						<p class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-suere. Pellentesque vel lacus <span>eget nisi convallis auctor. Nam</span></p>
 						<a href="#" class="about__link">Read more</a>
-					</div>
-					<div class="about__block about__block_center">
-						<h1 class="about__title">About our company</h1>
+				</div>
+				<div class="col about__block about__block_mess">
+					<h1 class="about__title">About our company</h1>
 						<p class="about__text about__text_mess">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-suere. Pellentesque vel lacus <span>eget nisi convallis auctor. Nam</span></p>
 						<a href="#" class="about__link">Read more</a>
-					</div>
-					<div class="about__block about__block_right">
-						<h1 class="about__title">About our company</h1>
+				</div>
+				<div class="col about__block about__block_mus">
+					<h1 class="about__title">About our company</h1>
 						<p class="about__text about__text_mus">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-suere. Pellentesque vel lacus <span>eget nisi convallis auctor. Nam</span></p>
 						<a href="#" class="about__link">Read more</a>
-					</div>
 				</div>
+			</div>
+			</div>
 			</section>
 		</div>
-		
+	</div>
 		<div class="testimonials__bg">
 			<section>
 				<div class="testimonials">
@@ -102,11 +113,11 @@
 								<h3 class="update__title_post">Nunc turpis neque feugiat eget </h3>
 								<p class="update__date">Posted by Admin on March 13 2012 <span>in Recent News</span></p>
 							</div>
-							<div class="update__item">
+							<div class="update__item update__item_miidle">
 								<h3 class="update__title_post">Nunc turpis neque feugiat eget </h3>
 								<p class="update__date">Posted by Admin on March 13 2012 <span>in Category</span></p>
 							</div>
-							<div class="update__item">
+							<div class="update__item update__item_bottom">
 								<h3 class="update__title_post">Nunc turpis neque feugiat eget </h3>
 								<p class="update__date">Posted by Admin on March 13 2012 <span>in Blog Updates</span></p>
 							</div>
@@ -118,6 +129,7 @@
 				</div>				
 			</section>
 		</div>
+
 		<div class="logos__bg">
 			<section>
 				<div class="logos">
@@ -130,16 +142,16 @@
 				</div>
 			</section>
 		</div>
-		<footer>
-			<div class="info__bg">
+		<div class="info__bg">
 			<section>
 				<div class="info">
-					<div class="info__block">
-						<h1 class="logo__text info__title">Pigbull<span>er</span></h1>
+					<div class="info_items">
+						<div class="info__block info__block_title">
+						<h1 class="logo__text info__title">Pigbull</h1>
 						<p class="info__caption">
 							Copyright 2013, Pingbull AS
 						</p>
-						<p class="info__text">
+						<p class="info__text info__text_title">
 							Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-
 						</p>
 					</div>
@@ -149,34 +161,54 @@
 							Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span>pul-vinar. Quisque urna risus, mattis pul-vinar bibendum in, venenatis quis</span>
 						</p>
 					</div>
-					<div class="info__block">
+					<div class="info__block info__block_cat">
 						<h1 class="updates__title updates__title_info"> News Categories</h1>
 						<p class="info__text">
 							Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span>pul-vinar. Quisque urna risus, mattis pul-vinar bibendum in, venenatis quis</span>
 						</p>					
 					</div>
+					</div>					
+					<div class="info__news">
+							<div class="info__block info__block_cat">
+							<h1 class="updates__title updates__title_info"> News Categories</h1>
+							<p class="info__text">
+								Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span>pul-vinar. Quisque urna risus, mattis pul-vinar bibendum in, venenatis quis</span>
+							</p>					
+						</div>
+							<div class="info__block info__block_cat">
+							<h1 class="updates__title updates__title_info"> News Categories</h1>
+							<p class="info__text">
+								Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span>pul-vinar. Quisque urna risus, mattis pul-vinar bibendum in, venenatis quis</span>
+							</p>					
+						</div>
+								<div class="info__block info__block_cat">
+							<h1 class="updates__title updates__title_info"> News Categories</h1>
+							<p class="info__text">
+								Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span>pul-vinar. Quisque urna risus, mattis pul-vinar bibendum in, venenatis quis</span>
+							</p>					
+						</div>
+					</div>
 				</div>
 			</section>
 			</div>
-				<div class="footer__bg">
-					<section>
-					<div class="menu menu_footer">
-						<ul>
-									<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">About</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Lorem ipsum</a></li>
-									<li class="menu__item"><a href="#" class="menu__link">Dolor sit amet</a></li>
-							</ul>
-						</div>
-						<div class="author">
-							<p class="author__text">Designed by <span>Pingbull AS</span></p>
-						</div>	
-					</section>
+	<footer>	
+		<div class="footer__bg">
+			<section>
+				<div class="menu menu_footer">
+					<ul>
+						<li class="menu__item menu__item_footer"><a href="#" class="menu__link menu__link_footer">Home</a></li>
+						<li class="menu__item menu__item_footer"><a href="#" class="menu__link menu__link_footer">About</a></li>
+						<li class="menu__item menu__item_footer"><a href="#" class="menu__link menu__link_footer">Blog</a></li>
+						<li class="menu__item menu__item_footer"><a href="#" class="menu__link menu__link_footer">Products</a></li>
+						<li class="menu__item menu__item_footer"><a href="#" class="menu__link menu__link_footer">Lorem ipsum</a></li>
+						<li class="menu__item menu__item_footer"><a href="#" class="menu__link menu__link_footer">Dolor sit amet</a></li>
+				</ul>
 				</div>
-						
-		</footer>
-
+				<div class="author">
+						<p class="author__text">Designed by <span>Pingbull AS</span></p>
+				</div>	
+			</section>
+		</div>
+	</footer>
 </body>
 </html>
